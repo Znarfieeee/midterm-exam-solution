@@ -1,10 +1,10 @@
 tasks = [];
 
-function addTask (event) {
+function addTask (event, name, description) {
     event.preventDefault()
     const task = {
         id: task.length + 1,
-        name: taskName,
+        name: name,
         description: description
     }
     tasks.push(task)

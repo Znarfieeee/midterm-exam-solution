@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "question2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node question5.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://github.com/Znarfieeee/midterm-exam-solution#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "sequelize": "^6.37.6"
   }
 }
